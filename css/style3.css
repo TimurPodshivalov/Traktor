@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    background-color: darkgoldenrod;
+    width: 1280px;
+    
+}
+.tool{
+    height: 70px;
+    background-color: rgb(253, 240, 208);
+}
+.tool img{
+    height: 70px;
+    margin-left: 20px;
+    float: left;
+}
+.tool a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.tool p{
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    color: darkolivegreen;
+    margin-right: 15px;
+}
+.tool p img{
+    height: 30px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.middle{
+    background-color: rgb(253, 240, 208);
+    height: 400px;
+    margin-top: 10px;
+}
+.middle img{
+    height: 400px;
+    float: left;
+}
+.middle p{
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.kontak{
+    background-color: rgb(253, 240, 208);
+}
+.kontak h1{
+    font-size: 40px;
+    text-align: center;
+    color: goldenrod;
+    border-radius: 10px;
+    border-bottom: 2px solid darkgoldenrod;
+}
+.kontak table{
+    border-spacing: 20px;
+}
+.kontak td{
+    color: goldenrod;
+    font-size: 18px;
+}
+.kontak iframe{
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+.bottom{
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 20px;
+    float:inline-start;
+    width: 1280px;
+    background-color: rgb(253, 240, 208);
+}
+.bottom h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: goldenrod;   
+}
+.bottom p{
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+    margin: 2px;
+}
+.bottom p:nth-last-child(3){
+    margin-bottom: 30px;
+}
+.bottom input{
+    color: white;
+    font-size: 18px;
+    background-color: limegreen;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
